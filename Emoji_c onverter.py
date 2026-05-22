@@ -1,0 +1,13 @@
+msg = input("Enter Your Message: ")
+
+msg = msg.replace("H", "😂")
+msg = msg.replace('P', "😍")
+msg = msg.replace('N', "👌")
+msg = msg.replace('!', "😒")
+msg = msg.replace('Y', "👍")
+msg = msg.replace('Lo', "😘")
+msg = msg.replace('M', "😎")
+msg = msg.replace('U', "🎶")
+msg = msg.replace('S', "😔")
+msg = msg.replace('A', "😡")
+print(msg)
