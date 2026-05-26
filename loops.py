@@ -59,13 +59,18 @@
 
 # Print countdown timer using for loops
 
-import time
-count = int(input("Enter the Counter Number: "))
+# import time
+# count = int(input("Enter the Counter Number: "))
 
-print("\n Contdown Starts Now..")
+# print("\n Contdown Starts Now..")
 
-for i in range(count, 0, -1):
-    print(i)
-    time.sleep(1)
+# for i in range(count, 0, -1):
+#     print(i)
+#     time.sleep(1)
 
-print("\n 😍 Happy New Year..🎇🎆")
+# print("\n 😍 Happy New Year..🎇🎆")
+# n = int(input("Enter the number : "))
+# i=1
+# while(i<=n):
+#     print(i,"anku thapliyal")
+#     i = i+1
