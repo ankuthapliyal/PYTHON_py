@@ -3,7 +3,7 @@
 import datetime
 import time
 
-name = input("Swagat h, Enter your name: ")
+name = input("Swagat h Enter your name: ")
 presentHour = datetime.datetime.now().hour
 
 if 5 <= presentHour <= 11:

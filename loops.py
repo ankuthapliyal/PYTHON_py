@@ -74,3 +74,40 @@
 # while(i<=n):
 #     print(i,"anku thapliyal")
 #     i = i+1
+
+# colors = ["Red", "White", "Yellow", "Green"]
+# for color in colors:
+#     print(color)
+#     for i in color:
+#         print(i)
+
+#     Range in for loops
+
+# for i in range(10):
+#     print(i+1)
+
+# for k in range(1, 9):
+#     print(k )
+
+# for i in range(0, 16, 5):
+#     print(i)
+
+# i = int(input("Enter the number: "))
+# while(i>=0):
+#     print(i)
+#     i = i-1
+
+#i = 7
+# i = int(input("Enter the number : "))
+# while(i<=20):
+#     i = int(input("Enter the number: "))
+#     print(i)
+
+# print("Done with the loop")
+
+num = int(input("Enter the number: "))
+
+i = 1
+while(i<=10):
+    print(num, "*", i, "=",num * i)
+    i = i + 1

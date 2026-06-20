@@ -15,7 +15,6 @@
 # defargu()
 
 # return statement
-
 # def multiply(x):
 #     return x**2
 

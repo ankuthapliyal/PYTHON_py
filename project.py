@@ -54,9 +54,11 @@
 # print(str1[0],str1[2])  # indexing of string
 
 # str4 = "Golabjamun" # string divide manye part call slicing
-# print(str4[-5:-1]) #gulab
+# print(str4[-5:-1]) #jamu
 # print(str4[:6]) #gulabj
 # print(str4[5:]) #jamun
+# nm = "harry"
+# print(nm[-4:-2])
 
 
 # str = input("Enter the String: -")
@@ -82,18 +84,42 @@
 # print(str.lower())
 # print(str.replace(" ", "_"))
 
-name = "anku"
-age = 20
-print(f"My name is {name} and i am {age} year old")
+# name = "anku"
+# age = 20
+# print(f"My name is {name} and i am {age} year old")
+
+# String methods
 
 # Repetition String
-str = "yum!" *3
-print(str)
+# str = "yum!" *3
+# print(str)
 
-x = input("Enter the string = ")
-print(len(x))
-print(x.upper())
-print(x.lower())
-print(x[0])
-print(x[0:])
-print(x[-1:])
+# x = input("Enter the string = ")
+# print(len(x))
+# print(x.upper())
+# print(x.lower())
+# print(x[0])
+# print(x[0:])
+# print(x[-1:])
+
+# a = "anku!! !!!!"
+# print(a)
+# print(a.rstrip("!"))
+# print(a.split(" "))
+
+# hading = "introductIOn tO js"
+# print(hading.capitalize())
+
+# str = "Welcome to the console!!!"
+# print(len(str))
+# print(len(str.center(50)))
+# print(str.endswith("!!!"))
+# print(str.endswith("the", 4, 14))
+str1 = "Welcome1ToThe2Comsole"
+print(str1.isalnum())
+print(str1.isalpha())
+st = "To Kill a Mocking Bird"
+print(st.istitle())
+print(st.startswith("a", 8, 14))
+print(st.swapcase())
+print(st.title())

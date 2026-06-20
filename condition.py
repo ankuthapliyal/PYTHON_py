@@ -52,22 +52,22 @@
 
 #List method
 
-marks = [20, 40, 50, 60, 75, 85, 97]
-print(marks)
-marks.append(92)
-print(marks)
-marks.sort()
-print(marks)
-marks.copy()
-print(marks)
-marks.pop(0)
-print(marks)
-marks.remove(40)
-print(marks)
-marks.insert(0,20)
-print(marks)
-marks.clear()
-print(marks)
+# marks = [20, 40, 50, 60, 75, 85, 97]
+# print(marks)
+# marks.append(92)
+# print(marks)
+# marks.sort() 
+# print(marks)
+# marks.copy()
+# print(marks)
+# marks.pop(0)
+# print(marks)
+# marks.remove(40)
+# print(marks)
+# marks.insert(0,20)
+# print(marks)
+# marks.clear()
+# print(marks)
 
 # take 3 food user input and store list
 
@@ -103,3 +103,14 @@ print(marks)
 
 # fruits = ("Mango", "Apple", "Banana", "Grapes", "Orange")
 # print(len(fruits))
+
+import time
+
+timestemp = time.strftime('%H:%M:%S')
+print(timestemp)
+timestemp = time.strftime('%H')
+print(timestemp)
+timestemp = time.strftime("%M")
+print(timestemp)
+timestemp = time.strftime("%S")
+print(timestemp )
