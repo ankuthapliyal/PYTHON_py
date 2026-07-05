@@ -49,6 +49,10 @@
 # print(foods[4])
 # print(len(foods))
 # print(student[1])
+# num = [[[1,2,3][4,5][6,7]]] #3d list
+# print(num)
+# l1 = list("anku")
+# print(l1)
 
 #List method
 
@@ -56,6 +60,15 @@
 # print(marks)
 # marks.append(92)
 # print(marks)
+# marks.extend([99,100,105])
+# print(marks)
+# marks.extend('anku')
+# print(marks)
+# marks.insert(0,10)
+# print(marks)
+# l1 = [1,2,3,4]
+# l2 = [5,6,7,8]
+# print(l1 + l2)
 # marks.sort() 
 # print(marks)
 # marks.copy()
@@ -69,6 +82,28 @@
 # marks.clear()
 # print(marks)
 
+# sample = "how are you?"
+# print(sample .split())
+# list = []
+
+# for i in sample.split():
+#     print(i.capitalize())
+#     list.append(i.capitalize())
+
+# print(list)
+# print(" ".join(list))
+
+# sample = 'abc@gmail.com'
+# print(sample[:sample.find("@")])
+
+# l1 = [1,1,2,2,3,3,4,4] 
+# l2 = [1,2,3,1]
+
+# l = []
+# for i in l1:
+#     if i not in l:
+#         l.append(i)
+# print(l)
 # take 3 food user input and store list
 
 # food1 = input("Enter foos 1: ")
@@ -92,7 +127,10 @@
 # print(marks[5])
 # print(marks[:9])
 # print(tuple)
-
+# t1 = (1,2,3(4,5))
+t1 = tuple("anku")
+print(t1)
+ 
 # method of tuple
 
 # marks = (20, 25, 30, 35, 45, 65, 75, 85, 75, 95)
@@ -104,13 +142,13 @@
 # fruits = ("Mango", "Apple", "Banana", "Grapes", "Orange")
 # print(len(fruits))
 
-import time
+# import time
 
-timestemp = time.strftime('%H:%M:%S')
-print(timestemp)
-timestemp = time.strftime('%H')
-print(timestemp)
-timestemp = time.strftime("%M")
-print(timestemp)
-timestemp = time.strftime("%S")
-print(timestemp )
+# timestemp = time.strftime('%H:%M:%S')
+# print(timestemp)
+# timestemp = time.strftime('%H')
+# print(timestemp)
+# timestemp = time.strftime("%M")
+# print(timestemp)
+# timestemp = time.strftime("%S")
+# print(timestemp )
