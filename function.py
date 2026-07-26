@@ -35,15 +35,15 @@
         
 # is_even(9.9)
 
-def flexi(*num):  # impement tupe *
-    product = 1
-    print(num)
-    print(type(num))
-    for i in num:
-        product = product * i
-    print(product)
+# def flexi(*num):  # impement tupe *
+#     product = 1
+#     print(num)
+#     print(type(num))
+#     for i in num:
+#         product = product * i
+#     print(product)
 
-flexi(1,2,3,4,5)
+# flexi(1,2,3,4,5)
 
 # function are object
 # def f(num):
@@ -59,3 +59,20 @@ flexi(1,2,3,4,5)
 # print(l)
 # l1 = [1,2,3,4,x(5)]
 # print(l)
+
+#Docstring:- definition of funnction,method,class,or module
+# def square(n):
+#     """Takes in a number n, returns the square of n
+#     """
+#     print(n**2)
+
+# square(5)
+# print(square.__doc__)
+
+#'IS' AND '==' comaprarison operator
+
+a = [1, 2, 3]  
+b = [1, 2, 3]
+
+print(a is b)  # compare to exact location of object in memory
+print(a==b)    # compare the value

@@ -1,1 +1,1 @@
-rint(time.time() - start)
+s1.studentdetails()

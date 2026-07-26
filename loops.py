@@ -105,9 +105,23 @@
 
 # print("Done with the loop")
 
-num = int(input("Enter the number: "))
+# num = int(input("Enter the number: "))
 
-i = 1
-while(i<=10):
-    print(num, "*", i, "=",num * i)
-    i = i + 1
+# i = 1
+# while(i<=10):
+#     print(num, "*", i, "=",num * i)
+#     i = i + 1
+
+# marks = [43, 60, 85, 56, 98, 48, 33, 70]
+
+# for index, mark in enumerate(marks):
+#     print(mark)
+#     if(index == 4):
+#         print("Awesome!")
+    # index += 1
+# for v in enumerate(marks):
+#      print(v)
+
+fruits = ["Apple", "Mongo", "Orange", "Banana", "Gvava"]
+for index, fruit in enumerate(fruits ,start=1):
+    print(index,fruit)

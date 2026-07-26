@@ -1,3 +1,4 @@
-Live score = 79
+Live score = 79 
 Total score = 100
 score to win = 65
+Anku is very good 

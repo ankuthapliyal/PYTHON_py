@@ -55,7 +55,7 @@
 #return only one line
 #not used for code reusability
 # It is highey order function
-# highyer order mens as function to input for one more function or funtion to return another function
+# highyer order mens as function to input for one more function or function to return another function
 # x = lambda x: x**2
 # print(x(9))
 # sum = lambda x,y: x+y
@@ -117,22 +117,23 @@
 # print(list(filter(lambda fruits:"e" in fruits, fruits))
 
 # Reduce Function:- it will be reduce of the list
-import functools
+# import functools
+from function import reduce 
 # l1 = [1,2,3,4,5,6,7]
 # print(functools.reduce(lambda x,y:x+y,l1)) 
 
 # l2 = [12,34,56,11,211,58]
 # print(functools.reduce(lambda x,y: x if x>y else y , l2))
 
-# l1 = [1,2,3,4,5,6,7]
-# l2 = [item *2 for item in l1]  # list concurrency
-# l3 = [i**2 for i in range(10) if i%2 == 0]
-# print(l2)
-# print(l3)
+l1 = [1,2,3,4,5,6,7]
+l2 = [item *2 for item in l1]  # list concurrency
+l3 = [i**2 for i in range(10) if i%2 == 0]
+print(l2)
+print(l3)
 
-l = [1,2,3,4,5,6,7]
-d = {"Name" : "Nitin", "Gender": "Male", "Age":21}
-print(d.items())
-d1 = {key : value for key, value in d.items() if len(key) > 3} #dictnory concurrency
-d2 = {i: i**2 for i in l}
-print(d2)
+# l = [1,2,3,4,5,6,7]
+# d = {"Name" : "Nitin", "Gender": "Male", "Age":21}
+# print(d.items())
+# d1 = {key : value for key, value in d.items() if len(key) > 3} #dictnory concurrency
+# d2 = {i: i**2 for i in l}
+# print(d2)
